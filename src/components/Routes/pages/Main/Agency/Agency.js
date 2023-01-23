@@ -30,7 +30,7 @@ const Agency = ({ agency, viewDetails, setViewDetails, openId, setOpenId }) => {
                     </div>
                 </div>
                 <div className='flex-grow-1 lg:w-[20%] flex-basis-[25%] flex justify-center'>
-                    <button onClick={() => handleDetailsOpen(id)} className='bg-red-500 px-2 py-1 rounded-xl text-slate-50 font-bold text-sm transition duration-500'>{(viewDetails && openId === id) ? "HIDE DETAILS" : "VIEW DETAILS"}</button>
+                    <button onClick={() => handleDetailsOpen(id)} className='bg-red-500 px-2 py-1 rounded-xl text-cyan-200 font-bold text-sm transition duration-500'>{(viewDetails && openId === id) ? "HIDE DETAILS" : "VIEW DETAILS"}</button>
                 </div>
             </div>
             {
