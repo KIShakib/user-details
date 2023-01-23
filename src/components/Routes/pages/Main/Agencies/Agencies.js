@@ -17,7 +17,6 @@ const Agencies = () => {
     }, [dispatch]);
 
     // Pagination
-    let itemPerPage = 4;
     let slicedArray = agencies.slice(0, 4);
 
     if (activePage === 1) {

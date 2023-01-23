@@ -2,7 +2,7 @@ import React from 'react';
 
 const Pagination = ({ activePage, setActivePage }) => {
     return (
-        <nav className='flex justify-center mt-5 pb-40'>
+        <nav className='flex justify-center mt-5'>
             <ul className="inline-flex -space-x-px">
                 <li>
                     <button
