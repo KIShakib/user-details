@@ -33,7 +33,7 @@ const Agency = ({ agency, viewDetails, setViewDetails, openId, setOpenId }) => {
             </div>
             {
                 (openId === id && viewDetails) &&
-                <div className=''>
+                <div className='mt-6 p-10'>
                     <AgencyDetails agency={agency} />
                 </div>
             }

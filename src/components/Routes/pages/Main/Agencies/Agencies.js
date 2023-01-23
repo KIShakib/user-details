@@ -13,7 +13,8 @@ const Agencies = () => {
     useEffect(() => {
         dispatch(fetchAgencies());
     }, [dispatch]);
-    console.log(openId);
+
+
     return (
         <div>
             <div className='flex flex-col gap-y-5 px-20'>
