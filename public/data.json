@@ -10,7 +10,7 @@
 			"country": "India",
 			"designation": "Proprietor",
 			"email": "hellotravels@gmail.com",
-			"phone": 9712500500,
+			"phone": 97125005132,
 			"description": "Providing service of domestic flight booking @ lowest price guaranteed and also for railway e-ticket booking. Also offering international flight tickets. Giving services to our customers since 1995. Now going to start hajj and umrah very soon for our valuable customers. It will be also @ very affordable price."
 		},
 		{
@@ -23,7 +23,7 @@
 			"country": "India",
 			"designation": "Proprietor",
 			"email": "travelguru@gmail.com",
-			"phone": 9712500500,
+			"phone": 97125004999,
 			"description": "Providing service of domestic flight booking @ lowest price guaranteed and also for railway e-ticket booking. Also offering international flight tickets. Giving services to our customers since 1995. Now going to start hajj and umrah very soon for our valuable customers. It will be also @ very affordable price."
 		},
 		{
@@ -36,7 +36,7 @@
 			"country": "India",
 			"designation": "Proprietor",
 			"email": "deshtravel@gmail.com",
-			"phone": 9712500500,
+			"phone": 97125007810,
 			"description": "Providing service of domestic flight booking @ lowest price guaranteed and also for railway e-ticket booking. Also offering international flight tickets. Giving services to our customers since 1995. Now going to start hajj and umrah very soon for our valuable customers. It will be also @ very affordable price."
 		},
 		{
@@ -49,7 +49,98 @@
 			"country": "India",
 			"designation": "Proprietor",
 			"email": "gozayaan@gmail.com",
-			"phone": 9712500500,
+			"phone": 971250008900,
+			"description": "Providing service of domestic flight booking @ lowest price guaranteed and also for railway e-ticket booking. Also offering international flight tickets. Giving services to our customers since 1995. Now going to start hajj and umrah very soon for our valuable customers. It will be also @ very affordable price."
+		},
+		{
+			"id": 5,
+			"name": "Green Travel",
+			"contact": "GK Kibria",
+			"address": "32 Char Kalibari",
+			"city": "Mymensingh City",
+			"state": "Mymensingh",
+			"country": "Bangladesh",
+			"designation": "Proprietor",
+			"email": "greenline@gmail.com",
+			"phone": 880183230270,
+			"description": "Providing service of domestic flight booking @ lowest price guaranteed and also for railway e-ticket booking. Also offering international flight tickets. Giving services to our customers since 1995. Now going to start hajj and umrah very soon for our valuable customers. It will be also @ very affordable price."
+		},
+		{
+			"id": 6,
+			"name": "President Tour",
+			"contact": "KZ Azmain",
+			"address": "05 Pekua",
+			"city": "Cox's Bazar",
+			"state": "Chattogram",
+			"country": "Bangladesh",
+			"designation": "Proprietor",
+			"email": "presidentour@gmail.com",
+			"phone": 8801609425589,
+			"description": "Providing service of domestic flight booking @ lowest price guaranteed and also for railway e-ticket booking. Also offering international flight tickets. Giving services to our customers since 1995. Now going to start hajj and umrah very soon for our valuable customers. It will be also @ very affordable price."
+		},
+		{
+			"id": 7,
+			"name": "Tour Group BD",
+			"contact": "KM Liton Kumar",
+			"address": "05 Banani",
+			"city": "Dhaka North",
+			"state": "Dhaka",
+			"country": "Bangladesh",
+			"designation": "Proprietor",
+			"email": "mailtgb@gmail.com",
+			"phone": 8801733881660,
+			"description": "Providing service of domestic flight booking @ lowest price guaranteed and also for railway e-ticket booking. Also offering international flight tickets. Giving services to our customers since 1995. Now going to start hajj and umrah very soon for our valuable customers. It will be also @ very affordable price."
+		},
+		{
+			"id": 8,
+			"name": "Jai Cab Trips",
+			"contact": "Washindhu Sheikh",
+			"address": "Thoppumpady",
+			"city": "Kochi",
+			"state": "Kochi",
+			"country": "India",
+			"designation": "Proprietor",
+			"email": "jctmail@gmail.com",
+			"phone": 971250078950,
+			"description": "Providing service of domestic flight booking @ lowest price guaranteed and also for railway e-ticket booking. Also offering international flight tickets. Giving services to our customers since 1995. Now going to start hajj and umrah very soon for our valuable customers. It will be also @ very affordable price."
+		},
+		{
+			"id": 8,
+			"name": "Nepal Eco Adventure",
+			"contact": "Manali Roy",
+			"address": "Satghumti",
+			"city": "Thamel",
+			"state": "Kathmandu",
+			"country": "Nepal",
+			"designation": "Proprietor",
+			"email": "adventureEco@gmail.com",
+			"phone": 4580826045,
+			"description": "Providing service of domestic flight booking @ lowest price guaranteed and also for railway e-ticket booking. Also offering international flight tickets. Giving services to our customers since 1995. Now going to start hajj and umrah very soon for our valuable customers. It will be also @ very affordable price."
+		},
+		{
+			"id": 9,
+			"name": "Let's Go Maldives",
+			"contact": "Shukkun Khear",
+			"address": "Nalaguraidhoo",
+			"city": "Malé 20025",
+			"state": "Malé",
+			"country": "Maldives",
+			"designation": "Proprietor",
+			"email": "letsgomdvs@gmail.com",
+			"phone": 9609977115,
+			"description": "Providing service of domestic flight booking @ lowest price guaranteed and also for railway e-ticket booking. Also offering international flight tickets. Giving services to our customers since 1995. Now going to start hajj and umrah very soon for our valuable customers. It will be also @ very affordable price."
+		},
+		{
+			"id": 10,
+			"name": "Kamakhya Tours",
+			"contact": "Onglak Sishu",
+			"address": "Sri Ram Complex",
+			"city": "Jaigaon",
+			"state": "Jaigaon",
+			"country": "Bhutan",
+			"designation": "Proprietor",
+			"email": "kamkhyatours@gmail.com",
+			"phone": 9932502310,
 			"description": "Providing service of domestic flight booking @ lowest price guaranteed and also for railway e-ticket booking. Also offering international flight tickets. Giving services to our customers since 1995. Now going to start hajj and umrah very soon for our valuable customers. It will be also @ very affordable price."
 		}
 	]

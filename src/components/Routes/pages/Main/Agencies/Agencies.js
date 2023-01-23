@@ -17,7 +17,7 @@ const Agencies = () => {
 
     return (
         <div>
-            <div className='flex flex-col gap-y-5 px-20'>
+            <div className='flex flex-col gap-y-5 lg:px-20 px-4'>
                 {
                     agencies?.map((agency, i) => <Agency
                         key={i}
