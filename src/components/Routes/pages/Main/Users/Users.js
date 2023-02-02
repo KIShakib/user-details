@@ -42,9 +42,9 @@ const Users = () => {
             </div>
             <div className='flex flex-col gap-y-5 lg:px-20 px-4'>
                 {
-                    slicedArray?.map((agency, i) => <User
+                    slicedArray?.map((user, i) => <User
                         key={i}
-                        agency={agency}
+                        user={user}
                         viewDetails={viewDetails}
                         setViewDetails={setViewDetails}
                         openId={openId}

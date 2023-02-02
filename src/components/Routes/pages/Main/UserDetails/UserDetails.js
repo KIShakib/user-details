@@ -1,7 +1,7 @@
 import React from 'react';
 
-const UserDetails = ({ agency }) => {
-    const { id, name, contact, city, state, description, designation, email, phone, address, country } = agency;
+const UserDetails = ({ user }) => {
+    const { id, name, contact, city, state, description, designation, email, phone, address, country } = user;
     return (
         <div className='shadow border rounded-lg p-8 flex flex-col gap-y-4'>
             <div>
