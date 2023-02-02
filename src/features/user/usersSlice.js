@@ -1,34 +1,34 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
-export const fetchAgencies = createAsyncThunk("cars/fetchCars", async () => {
+export const fetchUsers = createAsyncThunk("cars/fetchCars", async () => {
     const res = await axios.get("/data.json");
     return res.data.travelAgency;
 })
 
-const agencySlice = createSlice({
+const usersSlice = createSlice({
     name: "agencies",
     initialState: {
         isLoading: false,
-        agencies: [],
+        users: [],
         error: null
     },
     extraReducers: (builder) => {
-        builder.addCase(fetchAgencies.pending, (state) => {
+        builder.addCase(fetchUsers.pending, (state) => {
             state.isLoading = true;
         });
-        builder.addCase(fetchAgencies.fulfilled, (state, action) => {
+        builder.addCase(fetchUsers.fulfilled, (state, action) => {
             state.isLoading = false;
-            state.agencies = action.payload;
+            state.users = action.payload;
             state.error = null;
         });
-        builder.addCase(fetchAgencies.rejected, (state, action) => {
+        builder.addCase(fetchUsers.rejected, (state, action) => {
             state.isLoading = false;
-            state.agencies = [];
+            state.users = [];
             state.error = action.error.message;
         });
     }
 })
 
 
-export default agencySlice.reducer;
+export default usersSlice.reducer;

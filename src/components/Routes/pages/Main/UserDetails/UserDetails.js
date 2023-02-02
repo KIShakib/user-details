@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AgencyDetails = ({ agency }) => {
+const UserDetails = ({ agency }) => {
     const { id, name, contact, city, state, description, designation, email, phone, address, country } = agency;
     return (
         <div className='shadow border rounded-lg p-8 flex flex-col gap-y-4'>
@@ -50,4 +50,4 @@ const AgencyDetails = ({ agency }) => {
     );
 };
 
-export default AgencyDetails;
+export default UserDetails;

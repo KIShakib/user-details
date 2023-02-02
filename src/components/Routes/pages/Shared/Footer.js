@@ -5,8 +5,8 @@ const Footer = () => {
         <div className=" bg-cyan-500 text-cyan-900" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
             <div className="py-6">
                 <div className="text-center">
-                    <h3 className="text-3xl mb-3 tracking-widest font-bold"> GO TRAVEL </h3>
-                    <p> Want to travel? Contact with us. </p>
+                    <h3 className="text-3xl mb-3 tracking-widest font-bold"> USER DETAILS </h3>
+                    <p> Want to build your profile? Contact with us. </p>
                     <div className="flex justify-center my-10">
                         <div className="flex items-center border w-auto rounded-lg px-4 py-2 w-52 mx-2">
                             <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" className="w-7 md:w-8" alt=' ' />
@@ -26,7 +26,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center justify-center">
                     <div className='flex gap-x-10'>
-                        <p className="order-2 md:order-1 font-bold text-cyan-900"> &copy; GO TRAVEL, 2023. </p>
+                        <p className="order-2 md:order-1 font-bold text-cyan-900"> &copy; USER DETAILS, 2023. </p>
                         <div className="order-1 md:order-2">
                             <span className="px-2">About us</span>
                             <span className="px-2 border-l">Contact us</span>

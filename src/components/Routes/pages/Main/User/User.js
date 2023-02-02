@@ -1,7 +1,7 @@
 import React from 'react';
-import AgencyDetails from '../AgencyDetails/AgencyDetails';
+import UserDetails from '../UserDetails/UserDetails';
 
-const Agency = ({ agency, viewDetails, setViewDetails, openId, setOpenId }) => {
+const User = ({ agency, viewDetails, setViewDetails, openId, setOpenId }) => {
     const { id, name, contact, city, state } = agency;
 
     const handleDetailsOpen = (id) => {
@@ -36,11 +36,11 @@ const Agency = ({ agency, viewDetails, setViewDetails, openId, setOpenId }) => {
             {
                 (openId === id && viewDetails) &&
                 <div className='mt-6 lg:p-10'>
-                    <AgencyDetails agency={agency} />
+                    <UserDetails agency={agency} />
                 </div>
             }
         </div >
     );
 };
 
-export default Agency;
+export default User;
