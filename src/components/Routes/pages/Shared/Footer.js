@@ -1,8 +1,12 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 
 const Footer = () => {
+
+    const { toggleMode } = useSelector(state => state);
+
     return (
-        <div className=" bg-cyan-500 text-cyan-900" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
+        <div className={`${toggleMode ? "bg-[#0a192f] text-cyan-400" : "bg-cyan-500 text-cyan-900"}`} style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
             <div className="py-6">
                 <div className="text-center">
                     <h3 className="text-3xl mb-3 tracking-widest font-bold"> USER DETAILS </h3>

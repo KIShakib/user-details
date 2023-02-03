@@ -1,10 +1,11 @@
 # Travel Agency [ Go Travel ]
 
-### Live Link: https://go-travel-007.netlify.app
+### Live Link: https://user-details-007.netlify.app
 
-![Alt text](src/assets/preview1.jpg)
+![Alt text](src/assets/Preview%201.jpg)
 
-![Alt text](src/assets/preview2.jpg)
+
+![Alt text](src/assets/Preview%202.jpg)
 
 ### Technologies
 

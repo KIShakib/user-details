@@ -1,8 +1,11 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import UserDetails from '../UserDetails/UserDetails';
 
 const User = ({ user, viewDetails, setViewDetails, openId, setOpenId }) => {
     const { id, name, phone, username, address, company, email, website } = user;
+
+    const { toggleMode } = useSelector(state => state);
 
     const handleDetailsOpen = (id) => {
         setViewDetails(!viewDetails)
@@ -12,7 +15,7 @@ const User = ({ user, viewDetails, setViewDetails, openId, setOpenId }) => {
 
 
     return (
-        <div className=' bg-white p-8  rounded-xl'>
+        <div className={`${toggleMode ? "bg-[#0a192f] text-cyan-400" : "bg-white"} p-8  rounded-xl`}>
 
 
 
