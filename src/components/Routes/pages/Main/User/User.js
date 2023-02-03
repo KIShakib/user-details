@@ -10,21 +10,25 @@ const User = ({ user, viewDetails, setViewDetails, openId, setOpenId }) => {
     }
 
 
+
     return (
         <div className=' bg-white p-8  rounded-xl'>
-            <div className='lg:flex justify-between items-center'>
-                <div className='flex-grow-1 lg:w-[10%]'>
+
+
+
+            <div className='lg:flex lg:flex-row justify-between items-center flex sm:flex-col sm:gap-y-4 flex-col gap-y-4'>
+                <div className='lg:w-[10%]'>
                     <img className='w-24' src={`https://avatars.dicebear.com/v2/avataaars/${user.username}.svg?options[mood][]=happy`} alt="" />
                 </div>
                 <div className='flex-grow-1 lg:w-[30%]'>
-                    <h1 className='text-2xl font-bold tracking-widest lg:ml-10'>{name}</h1>
+                    <h1 className='lg:text-2xl md:text-2xl sm:text-xl font-bold tracking-widest lg:ml-10'>{name}</h1>
                 </div>
-                <div className='flex-grow-1 lg:w-[45%] flex-basis-[35%] lg:flex lg:flex-row flex gap-x-10 my-4 lg:my-0'>
-                    <div className='flex-grow-1 w-[50%]'>
+                <div className='lg:w-[45%] lg:flex lg:flex-row flex lg:gap-x-10 lg:my-0 sm:w-full sm:justify-center sm:gap-x-5'>
+                    <div className='flex-grow-1 lg:w-[50%]'>
                         <h4 className='text-sm font-bold tracking-widest'>CONTACT</h4>
                         <h4 className='font-bold tracking-widest'>{phone.split(" ")[0]}</h4>
                     </div>
-                    <div className='flex-grow-1 w-[50%]'>
+                    <div className='flex-grow-1 lg:w-[50%]'>
                         <h4 className='text-sm font-bold tracking-widest'>CITY</h4>
                         <h4 className='font-bold tracking-widest'>{address?.city}</h4>
                     </div>
@@ -33,10 +37,14 @@ const User = ({ user, viewDetails, setViewDetails, openId, setOpenId }) => {
                     <button onClick={() => handleDetailsOpen(id)} className='bg-red-500 px-2 py-1 rounded-xl text-cyan-200 font-bold text-sm transition duration-500'>{(viewDetails && openId === id) ? "HIDE DETAILS" : "VIEW DETAILS"}</button>
                 </div>
             </div>
+
+
+
+
             {
                 (openId === id && viewDetails) &&
                 <div className='mt-6 lg:p-10'>
-                    {/* <UserDetails user={user} /> */}
+                    <UserDetails user={user} />
                 </div>
             }
         </div >
